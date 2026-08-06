@@ -4,7 +4,7 @@
 
 <!ENTITY  addons.label                  "부가 기능">
 
-<!ENTITY  warnAddonInstall.label        "허용된 사이트에서만 부가 기능을 설치하도록 허용">
+<!ENTITY  warnAddonInstall.label        "허용된 사이트에서만 부가 기능 설치 허용">
 <!ENTITY  warnAddonInstall.accesskey    "W">
 
 <!ENTITY  addonExceptions.label         "허용 목록…">
