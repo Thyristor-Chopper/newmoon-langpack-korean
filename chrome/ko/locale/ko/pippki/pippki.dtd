@@ -3,7 +3,7 @@
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!-- Values for changepassword.xul -->
-<!ENTITY setPassword.title  "기본 암호 설정">
+<!ENTITY setPassword.title  "마스터 암호 설정">
 <!ENTITY setPassword.tokenName.label "보안 장치">
 <!ENTITY setPassword.oldPassword.label "현재 암호:">
 <!ENTITY setPassword.newPassword.label "새 암호:">
@@ -12,8 +12,8 @@
 
 <!-- Values for resetpassword.xul -->
 <!ENTITY resetPasswordButtonLabel "재설정">
-<!ENTITY resetPassword.title  "기본 암호 재설정">
-<!ENTITY resetPassword.text  "기본 암호를 재설정하면 저장된 웹과 전자 메일 암호, 폼 데이터, 개인 인증서, 그리고 비밀키에 접근하지 못하게됩니다. 정말로 기본 암호를 재설정하시겠습니까?">
+<!ENTITY resetPassword.title  "마스터 암호 재설정">
+<!ENTITY resetPassword.text  "마스터 암호를 재설정하면 저장된 웹과 전자 메일 암호, 폼 데이터, 개인 인증서, 그리고 비밀키에 접근하지 못하게 됩니다. 정말로 마스터 암호를 재설정하시겠습니까?">
 
 <!-- Downloading a cert -->
 <!ENTITY downloadCert.title "인증서 다운로드 중">

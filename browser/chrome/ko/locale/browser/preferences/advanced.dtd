@@ -12,6 +12,8 @@
 <!ENTITY useCursorNavigation.accesskey   "c">
 <!ENTITY searchStartTyping.label         "입력을 시작하면 페이지 내용 검색하기">
 <!ENTITY searchStartTyping.accesskey     "x">
+<!ENTITY reduceMotion.label              "시각적 애니메이션 감소">
+<!ENTITY reduceMotion.accesskey          "m">
 <!ENTITY blockAutoRefresh.label          "웹 사이트를 새로 고치거나 리다이렉트할 때 경고 표시">
 <!ENTITY blockAutoRefresh.accesskey      "b">
 
@@ -19,8 +21,6 @@
 
 <!ENTITY useAutoScroll.label             "자동 스크롤 기능 사용">
 <!ENTITY useAutoScroll.accesskey         "a">
-<!ENTITY useSmoothScrolling.label        "부드러운 스크롤 기능 사용">
-<!ENTITY useSmoothScrolling.accesskey    "m">
 <!ENTITY checkSpelling.label             "맞춤법 검사 기능 사용">
 <!ENTITY checkSpelling.accesskey         "t">
 <!ENTITY HWAccel.label                   "하드웨어 가속 (HWA)">
@@ -42,9 +42,6 @@
 <!ENTITY UACompat.Gecko                  "Gecko 호환성">
 <!ENTITY UACompat.Firefox                "파이어폭스 호환성">
 
-<!ENTITY captivePortalGroup.label        "Captive portals">
-<!ENTITY captivePortalDetect.label       "제한된 네트워크 접속 감지">
-
 <!ENTITY dataChoicesTab.label            "데이터 선택">
 
 <!ENTITY crashReporterSection.label      "오류 보고서">
@@ -61,7 +58,16 @@
 <!ENTITY connectionSettings.label        "설정…">
 <!ENTITY connectionSettings.accesskey    "e">
 
-<!ENTITY httpCache.label                 "캐쉬된 웹 페이지">
+<!ENTITY DNS.label                       "DNS">
+<!ENTITY enableDNSPrefetch.label         "DNS 미리 조회 사용">
+<!ENTITY enableDNSPrefetch.accesskey     "P">
+
+<!ENTITY captivePortalGroup.label        "제한된 네트워크 접속">
+<!ENTITY captivePortalDetect.label       "제한된 네트워크 접속 감지">
+
+<!ENTITY cacheTab.label                  "캐시">
+
+<!ENTITY httpCache.label                 "캐시된 웹 페이지">
 
 <!ENTITY offlineStorage2.label           "오프라인 웹 페이지 및 사용자 데이터">
 
@@ -78,7 +84,7 @@
 <!ENTITY clearCacheNow.accesskey         "C">
 <!ENTITY clearOfflineAppCacheNow.label   "지금 삭제">
 <!ENTITY clearOfflineAppCacheNow.accesskey "N">
-<!ENTITY overrideSmartCacheSize.label    "자동 캐시 크기 관리">
+<!ENTITY overrideSmartCacheSize.label    "캐시 크기 수동 지정">
 <!ENTITY overrideSmartCacheSize.accesskey "O">
 
 <!ENTITY updateTab.label                 "업데이트">
@@ -105,12 +111,12 @@
 <!ENTITY updateHistory.accesskey         "p">
 
 <!ENTITY updateOthers.label              "자동 업데이트:">
-<!ENTITY enableSearchUpdate.label        "검색 사이트">
+<!ENTITY enableSearchUpdate.label        "검색 엔진">
 <!ENTITY enableSearchUpdate.accesskey    "E">
 
-<!ENTITY offlineAppsPermissions.label    "웹 사이트가 오프라인 사용을 위해 자료 저장을 요청할 때:">
+<!ENTITY offlineAppsPermissions.label    "웹 사이트가 오프라인 사용을 위해 데이터 저장을 요청할 때:">
 <!ENTITY offlineAppsPermissions.Allow    "기본적으로 허가">
-<!ENTITY offlineAppsPermissions.Ask      "항상 물어보기">
+<!ENTITY offlineAppsPermissions.Ask      "항상 묻기">
 <!ENTITY offlineAppsPermissions.Deny     "거부">
 <!ENTITY offlineNotifyExceptions.label   "예외 사항…">
 <!ENTITY offlineNotifyExceptions.accesskey "x">
@@ -126,7 +132,7 @@
 <!ENTITY certSelection.description       "웹 사이트에서 개인 인증서를 요구할 때:">
 <!ENTITY certs.auto                      "자동으로 한 가지 선택">
 <!ENTITY certs.auto.accesskey            "l">
-<!ENTITY certs.ask                       "항상 물어 보기">
+<!ENTITY certs.ask                       "항상 물어보기">
 <!ENTITY certs.ask.accesskey             "i">
 <!ENTITY ocspGroup.label                 "인증서 유효성 검사">
 <!ENTITY enableOCSP.label                "인증서 유효성 확인을 위해 온라인 인증서 상태 프로토콜(OCSP) 사용">
@@ -139,14 +145,16 @@
 <!ENTITY viewSecurityDevices.accesskey   "y">
 
 <!ENTITY scrollparamTab.label               "스크롤">
-<!ENTITY smoothscroll.explain.label         "하단 값들은 오직 상단 체크 박스에서 부드러운 스크롤 기능 사용이 활성화된 경우에만 적용 됩니다.">
+<!ENTITY smoothscroll.explain.label         "하단 값들은 상단 확인란의 부드러운 스크롤 기능 사용이 활성화된 경우에만 적용됩니다.">
+<!ENTITY useSmoothScrolling.label           "부드러운 스크롤 사용">
+<!ENTITY useSmoothScrolling.accesskey       "M">
 <!ENTITY smoothscroll.to                    "~">
 <!ENTITY smoothscroll.params.label          "부드러운 스크롤 기능 값">
 <!ENTITY smoothscroll.mousewheel.label      "마우스 휠 사용시 부드러운 스크롤">
 <!ENTITY smoothscroll.mousewheel.duration   "마우스 휠 스크롤 간격:">
 <!ENTITY smoothscroll.arrowkeys.label       "방향키 사용시 부드러운 스크롤">
 <!ENTITY smoothscroll.arrowkeys.duration    "방향키 스크롤 간격:">
-<!ENTITY smoothscroll.pagekeys.label        "page up/down키 사용시 부드러운 스크롤">
+<!ENTITY smoothscroll.pagekeys.label        "page up/down 키 사용 시 부드러운 스크롤">
 <!ENTITY smoothscroll.pagekeys.duration     "Page up/down 스크롤 간격:">
 <!ENTITY smoothscroll.scrollbar.label       "스크롤 바 사용시 부드러운 스크롤">
 <!ENTITY smoothscroll.scrollbar.duration    "스크롤 바의 부드러운 스크롤 간격:">

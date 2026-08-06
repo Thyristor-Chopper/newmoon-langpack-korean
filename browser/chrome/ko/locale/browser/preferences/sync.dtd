@@ -5,7 +5,7 @@
 <!-- The page shown when not logged in... -->
 <!ENTITY setupButton.label          "&syncBrand.fullName.label; 설정">
 <!ENTITY setupButton.accesskey      "S">
-<!ENTITY weaveDesc.label            "&syncBrand.fullName.label; 는 어떤 기기에서도 웹 방문 기록, 북마크, 암호, 탭 이용 정보를 공유할 수 있습니다.">
+<!ENTITY weaveDesc.label            "&syncBrand.fullName.label;는 어떤 기기에서도 웹 방문 기록, 북마크, 암호, 탭 이용 정보를 공유할 수 있습니다.">
 
 <!-- The page shown when logged in... -->
 

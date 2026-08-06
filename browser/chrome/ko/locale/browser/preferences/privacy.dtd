@@ -2,25 +2,21 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!ENTITY tracking.label                 "추적 기능">
-
-<!ENTITY dntTrackingNotOkay.label2      "웹 사이트에 방문자 추적 중지를 요청">
-<!ENTITY dntTrackingNotOkay.accesskey   "n">
-<!ENTITY doNotTrackInfo.label           "더 알아보기">
+<!ENTITY  generalTab.label              "일반">
 
 <!ENTITY  history.label                 "방문 기록">
 
 <!ENTITY  locationBar.label             "주소창">
 
 <!ENTITY  locbar.suggest.label          "주소창에 표시할 추천 항목:">
-<!ENTITY  locbar.history.label          "방문 기록만">
+<!ENTITY  locbar.history.label          "방문 기록">
 <!ENTITY  locbar.history.accesskey      "H">
-<!ENTITY  locbar.bookmarks.label        "북마크만">
+<!ENTITY  locbar.bookmarks.label        "북마크">
 <!ENTITY  locbar.bookmarks.accesskey    "k">
-<!ENTITY  locbar.openpage.label         "탭 열기">
+<!ENTITY  locbar.openpage.label         "열려 있는 탭">
 <!ENTITY  locbar.openpage.accesskey     "O">
 
-<!ENTITY  acceptCookies.label           "사이트에 쿠키 및 데이터 저장 허가">
+<!ENTITY  acceptCookies.label           "사이트에 쿠키 및 데이터 저장 허용">
 <!ENTITY  acceptCookies.accesskey       "A">
 
 <!ENTITY  acceptThirdParty.pre.label      "제3자 쿠키 및 사이트 데이터 허용:">
@@ -32,7 +28,7 @@
 <!ENTITY  keepUntil.label               "유지 시간:">
 <!ENTITY  keepUntil.accesskey           "K">
 
-<!ENTITY  expire.label                  "만료 될 때까지">
+<!ENTITY  expire.label                  "만료될 때까지">
 <!ENTITY  close.label                   "&brandShortName;을 닫을 때">
 
 <!ENTITY  cookieExceptions.label        "예외 목록…">
@@ -41,7 +37,7 @@
 <!ENTITY  showCookies.label             "쿠키 보기…">
 <!ENTITY  showCookies.accesskey         "S">
 
-<!ENTITY  historyHeader.pre.label          "&brandShortName; 작업 사항:">
+<!ENTITY  historyHeader.pre.label          "방문 기록 설정:">
 <!ENTITY  historyHeader.pre.accesskey      "w">
 <!ENTITY  historyHeader.remember.label     "방문 기록 저장">
 <!ENTITY  historyHeader.dontremember.label "방문 기록 저장 안 함">
@@ -67,13 +63,13 @@
 <!ENTITY  dontrememberActions.clearHistory.label "모든 방문 기록 삭제">
 <!ENTITY  dontrememberActions.post.label         ".">
 
-<!ENTITY  privateBrowsingPermanent2.label "사생활 보호 모드로만 이용">
+<!ENTITY  privateBrowsingPermanent2.label "시크릿 모드로만 이용">
 <!ENTITY  privateBrowsingPermanent2.accesskey "p">
 
-<!ENTITY  rememberHistory2.label      "표시한 페이지 및 파일 다운로드 기록 저장">
+<!ENTITY  rememberHistory2.label      "방문 기록 및 다운로드 기록 저장">
 <!ENTITY  rememberHistory2.accesskey  "b">
 
-<!ENTITY  rememberSearchForm.label       "검색 및 입력 기록 저장">
+<!ENTITY  rememberSearchForm.label       "검색 및 양식 입력 기록 저장">
 <!ENTITY  rememberSearchForm.accesskey   "f">
 
 <!ENTITY  clearOnClose.label             "&brandShortName;을 닫을 때 방문 기록 삭제">
@@ -81,3 +77,24 @@
 
 <!ENTITY  clearOnCloseSettings.label     "설정…">
 <!ENTITY  clearOnCloseSettings.accesskey "t">
+
+
+<!ENTITY  trackingTab.label "추적기">
+
+<!ENTITY  dataPrivacy.label             "사용 정보">
+
+<!ENTITY  sendGPCheader.label           "GPC 헤더 전송하기">
+<!ENTITY  sendGPCheader.accesskey       "n">
+<!ENTITY  GPCInfo.label                 "자세히...">
+
+<!ENTITY  fingerprinting.label          "사용자 식별">
+
+<!ENTITY  canvasPoisonData.label        "캔버스 내용 변형">
+<!ENTITY  canvasPoisonData.accesskey    "P">
+
+<!ENTITY  scripting.label               "스크립트">
+
+<!ENTITY  perfObserver.label            "Performance Observer 허용">
+<!ENTITY  perfObserver.accesskey        "O">
+<!ENTITY  perfNavTiming.label           "Performance Navigation Timing 허용">
+<!ENTITY  perfNavTiming.accesskey       "N">

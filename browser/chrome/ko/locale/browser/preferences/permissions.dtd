@@ -23,6 +23,6 @@
 
 <!ENTITY button.cancel.label          "취소">
 <!ENTITY button.cancel.accesskey      "C">
-<!ENTITY button.ok.label              "바뀐 점 저장">
+<!ENTITY button.ok.label              "확인">
 <!ENTITY button.ok.accesskey          "S">
 

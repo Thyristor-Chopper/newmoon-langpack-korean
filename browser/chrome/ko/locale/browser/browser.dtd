@@ -13,7 +13,7 @@
 <!ENTITY mainWindow.titlemodifiermenuseparator " - ">
 <!-- LOCALIZATION NOTE (mainWindow.titlePrivateBrowsingSuffix): This will be appended to the window's title
                                                                 inside the private browsing mode -->
-<!ENTITY mainWindow.titlePrivateBrowsingSuffix "(사생활 보호 모드)">
+<!ENTITY mainWindow.titlePrivateBrowsingSuffix "[시크릿 모드]">
 
 <!-- Tab context menu -->
 <!ENTITY  reloadTab.label                    "현재 탭 새로 고침">
@@ -215,7 +215,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY newNavigatorCmd.label        "새 창">
 <!ENTITY newNavigatorCmd.key        "N">
 <!ENTITY newNavigatorCmd.accesskey      "N">
-<!ENTITY newPrivateWindow.label     "새 사생활 보호 모드">
+<!ENTITY newPrivateWindow.label     "새 시크릿 창">
 <!ENTITY newPrivateWindow.accesskey "W">
 
 <!ENTITY editMenu.label         "편집"> 
@@ -257,7 +257,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY viewTabsOnTop.label            "탭 항상 위로">
 <!ENTITY viewTabsOnTop.accesskey        "T">
 
-<!ENTITY historyMenu.label "방문기록">
+<!ENTITY historyMenu.label "기록">
 <!ENTITY historyMenu.accesskey "s">
 <!ENTITY historyUndoMenu.label "최근에 닫은 탭">
 <!-- LOCALIZATION NOTE (historyUndoWindowMenu): see bug 394759 -->
@@ -310,7 +310,7 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY openLinkCmdInTab.accesskey   "T">
 <!ENTITY openLinkCmd.label            "새 창에 링크 열기">
 <!ENTITY openLinkCmd.accesskey        "W">
-<!ENTITY openLinkInPrivateWindowCmd.label "새 사생활 보호 창에 링크 열기">
+<!ENTITY openLinkInPrivateWindowCmd.label "새 시크릿 창에 링크 열기">
 <!ENTITY openLinkInPrivateWindowCmd.accesskey "P">
 <!ENTITY openLinkCmdInCurrent.label     "현재 탭에 링크 열기">
 <!ENTITY openLinkCmdInCurrent.accesskey "O">
@@ -383,9 +383,9 @@ These should match what Safari and other Apple applications use on OS X Lion. --
 <!ENTITY emailVideoCmd.accesskey      "a">
 <!ENTITY emailAudioCmd.label          "오디오 보내기…">
 <!ENTITY emailAudioCmd.accesskey      "a">
-<!ENTITY playPluginCmd.label          "현재 플러그인 활성화">
+<!ENTITY playPluginCmd.label          "현재 플러그 인 활성화">
 <!ENTITY playPluginCmd.accesskey      "c">
-<!ENTITY hidePluginCmd.label          "현재 플러그인 숨기기">
+<!ENTITY hidePluginCmd.label          "현재 플러그 인 숨기기">
 <!ENTITY hidePluginCmd.accesskey      "H">
 <!ENTITY copyLinkCmd.label            "링크 주소 복사">
 <!ENTITY copyLinkCmd.accesskey        "a">
@@ -601,4 +601,4 @@ just addresses the organization to follow, e.g. "This site is run by " -->
 <!-- LOCALIZATION NOTE (pluginActivateNow.label, pluginActivateAlways.label, pluginBlockNow.label): These should be the same as the matching strings in browser.properties -->
 <!ENTITY pluginActivateNow.label "지금만 허가">
 <!ENTITY pluginActivateAlways.label "허가하고 기억">
-<!ENTITY pluginBlockNow.label "플러그인 차단">
+<!ENTITY pluginBlockNow.label "플러그 인 차단">

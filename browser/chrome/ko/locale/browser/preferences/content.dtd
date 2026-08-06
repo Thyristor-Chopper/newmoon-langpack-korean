@@ -7,12 +7,12 @@
 <!ENTITY  popupExceptions.label       "예외 목록…">
 <!ENTITY  popupExceptions.accesskey   "E">
 
-<!ENTITY  loadImages.label            "불러올 이미지:">
-<!ENTITY  loadImages.always           "자동">
-<!ENTITY  loadImages.never            "하지 않음">
-<!ENTITY  loadImages.no3rdparty       "서버에서 온 것만">
+<!ENTITY  loadImages.label            "이미지 표시:">
+<!ENTITY  loadImages.always           "허용">
+<!ENTITY  loadImages.never            "차단">
+<!ENTITY  loadImages.no3rdparty       "제3자 도메인 이미지 차단">
 
-<!ENTITY  fontsAndColors.label        "글꼴과 색상">
+<!ENTITY  fontsAndColors.label        "글꼴 및 색상">
 
 <!ENTITY  defaultFont.label           "기본 글꼴:">
 <!ENTITY  defaultFont.accesskey       "D">
@@ -26,16 +26,28 @@
 <!ENTITY  colors.accesskey            "C">
 
 <!ENTITY  languages.label             "언어">
-<!ENTITY  chooseLanguage.label        "웹 페이지를 표시할 선호 언어 선택">
+<!ENTITY  chooseLanguage.label        "웹 페이지를 표시할 선호 언어를 선택합니다.">
 <!ENTITY  chooseButton.label          "선택…">
 <!ENTITY  chooseButton.accesskey      "o">
 
+<!ENTITY  jsOptions.label             "스크립트">
+<!ENTITY  jsOptionsWasm.label         "WebAssembly(WASM) 사용">
+<!ENTITY  jsOptionsWasm.accesskey     "y">
+
 <!ENTITY  video.label                 "동영상">
-<!ENTITY  videoMSE.label              "Media Source Extensions (MSE) 사용">
+<!ENTITY  videoMSE.label              "Media Source Extensions(MSE) 사용">
 <!ENTITY  videoMSE.accesskey          "r">
 <!ENTITY  videoMSEMP4.label           "MP4 동영상에 MSE 사용">
 <!ENTITY  videoMSEMP4.accesskey       "4">
 <!ENTITY  videoMSEWebM.label          "WebM 동영상에 MSE 사용">
 <!ENTITY  videoMSEWebM.accesskey      "W">
 
+<!ENTITY mediaSupport.label           "미디어 형식">
+<!ENTITY allowEnable.label            "사용할 미디어 형식:">
 
+<!ENTITY enableMP4.label              "MP4">
+<!ENTITY enableWebM.label             "WebM">
+<!ENTITY enableAV1.label              "AV1">
+<!ENTITY enableOGG.label              "Vorbis">
+<!ENTITY enableOPUS.label             "Opus">
+<!ENTITY enableFLAC.label             "FLAC">

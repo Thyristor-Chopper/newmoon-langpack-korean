@@ -4,10 +4,10 @@
 
 <!ENTITY  addons.label                  "부가 기능">
 
-<!ENTITY  warnAddonInstall.label        "부가 기능을 설치할 때 알려주기">
+<!ENTITY  warnAddonInstall.label        "허용된 사이트에서만 부가 기능을 설치하도록 허용">
 <!ENTITY  warnAddonInstall.accesskey    "W">
 
-<!ENTITY  addonExceptions.label         "예외 목록…">
+<!ENTITY  addonExceptions.label         "허용 목록…">
 <!ENTITY  addonExceptions.accesskey     "E">
 
 <!ENTITY  addonSecuritylevel            "부가 기능 보안 수준:">
@@ -23,24 +23,24 @@
 <!ENTITY  passwordExceptions.label      "예외 목록…">
 <!ENTITY  passwordExceptions.accesskey  "x">
 
-<!ENTITY  autofillPasswords.label       "로그인 정보를 자동으로 채우기">
+<!ENTITY  autofillPasswords.label       "로그인 정보 자동 완성">
 <!ENTITY  autofillPasswords.accesskey   "A">
 
-<!ENTITY  useMasterPassword.label        "정보 보호을 위해 기본 암호 사용">
+<!ENTITY  useMasterPassword.label        "정보 보호를 위해 마스터 암호 사용">
 <!ENTITY  useMasterPassword.accesskey    "U">
-<!ENTITY  changeMasterPassword.label     "기본 암호 변경…">
+<!ENTITY  changeMasterPassword.label     "마스터 암호 변경…">
 <!ENTITY  changeMasterPassword.accesskey "M">
 
 <!ENTITY  savedPasswords.label            "암호 저장 목록…">
 <!ENTITY  savedPasswords.accesskey        "P">
 
 <!ENTITY  SecProto.label             "보안 프로토콜">
-<!ENTITY  enableHSTS.label           "Strict Transport Security (HSTS) 사용">
+<!ENTITY  enableHSTS.label           "Strict Transport Security(HSTS) 사용">
 <!ENTITY  enableHSTS.accesskey       "S">
-<!ENTITY  enableHPKP.label           "Certificate Key Pinning (HPKP) 사용">
+<!ENTITY  enableHPKP.label           "Certificate Key Pinning(HPKP) 사용">
 <!ENTITY  enableHPKP.accesskey       "C">
 
-<!ENTITY  OpEnc.label                "기회주의적 암호화 (OE)">
+<!ENTITY  OpEnc.label                "기회주의적 암호화(OE)">
 <!ENTITY  enableUIROpEnc.label       "Upgrade Insecure Requests 사용">
 <!ENTITY  enableAltSvcOpEnc.label    "OE에 HTTP Alternative Services 사용">
 

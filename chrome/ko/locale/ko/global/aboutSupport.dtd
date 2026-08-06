@@ -25,15 +25,6 @@ This is likely the same like id.heading in crashes.dtd. -->
 <!ENTITY aboutSupport.extensionVersion "버전">
 <!ENTITY aboutSupport.extensionId "ID">
 
-<!ENTITY aboutSupport.experimentsTitle "실험적인 기능">
-<!ENTITY aboutSupport.experimentName "이름">
-<!ENTITY aboutSupport.experimentId "ID">
-<!ENTITY aboutSupport.experimentDescription "설명">
-<!ENTITY aboutSupport.experimentActive "활성화">
-<!ENTITY aboutSupport.experimentEndDate "종료일">
-<!ENTITY aboutSupport.experimentHomepage "홈페이지">
-<!ENTITY aboutSupport.experimentBranch "브랜치">
-
 <!ENTITY aboutSupport.appBasicsTitle "응용 프로그램 기본 정보">
 <!ENTITY aboutSupport.appBasicsName "이름">
 <!ENTITY aboutSupport.appBasicsVersion "버전">
@@ -52,10 +43,11 @@ This is the Windows- and Mac-specific variant of aboutSupport.appBasicsProfileDi
 Windows/Mac use the term "Folder" instead of "Directory" -->
 <!ENTITY aboutSupport.appBasicsProfileDirWinMac "프로필 폴더">
 
-<!ENTITY aboutSupport.appBasicsEnabledPlugins "사용 중인 플러그인">
+<!ENTITY aboutSupport.appBasicsEnabledPlugins "사용 중인 플러그 인">
 <!ENTITY aboutSupport.appBasicsBuildConfig "빌드 설정">
 <!ENTITY aboutSupport.appBasicsUserAgent "사용자 에이전트">
 <!ENTITY aboutSupport.appBasicsOS "OS">
+<!ENTITY aboutSupport.appBasicsCPUCaps "CPU 기능">
 <!ENTITY aboutSupport.appBasicsMemoryUse "메모리 사용">
 <!ENTITY aboutSupport.appBasicsPerformance "성능">
 
